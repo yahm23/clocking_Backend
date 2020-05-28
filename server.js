@@ -26,4 +26,5 @@ MongoClient.connect('mongodb://localhost:27017') // This is the location of wher
 
 app.listen(4000, function () {
   console.log(`Listening on this port: ${this.address().port}`);
+  console.log(`BackEnd Live at: localhost:${this.address().port}/api/staff`);
 });
